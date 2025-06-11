@@ -1,46 +1,63 @@
-# 🐠Underwater Robot Using Raspberry Pi | Real-Time Control & Temperature Monitoring
+🐠 Remotely Operated Underwater Robot using Raspberry Pi
+Real-Time Navigation, Live Video Streaming, and Temperature Monitoring 🌊🤖
+This project showcases a tethered underwater robot built on a Raspberry Pi 4 running Raspberry Pi OS. Designed for real-time control, live video feedback, and temperature sensing, the robot integrates multiple systems including brushless motors, electronic speed controllers (ESCs), and a waterproof temperature sensor.
 
-This project features a custom-built tethered underwater robot powered by a Raspberry Pi 4 running Raspberry Pi OS. The robot is capable of real-time navigation and temperature sensing in underwater environments using brushless motors with ESCs, a waterproof temperature sensor, and a Raspberry Pi Camera for live video streaming.
+The onboard PyQt-based GUI runs directly on the Raspberry Pi and is accessed remotely via RealVNC using a static-IP Ethernet connection. Our design was successfully pool-tested at a depth of 6 feet, showing excellent balance, structural integrity, and accurate environmental data collection.
 
-The system is operated via a PyQt-based GUI, which is hosted directly on the Pi and accessed remotely through RealVNC over a static-IP Ethernet connection. The robot was tested in a 6-foot-deep pool and successfully captured accurate temperature data while maintaining perfect balance and watertight integrity.
+⚙️ Features
+🌀 Four brushless motors controlled via ESCs
 
-🛠 Features
-  4 Brushless Motors controlled via Electronic Speed Controllers (ESCs)
-  
-  2 propellers for Z-axis (vertical) navigation
-  
-  2 mirrored propellers for balanced X-Y plane movement
-  
-  Real-time GUI using PyQt (runs directly on Raspberry Pi)
-  
-  Raspberry Pi Camera Module for live visual feedback
-  
-  Temperature sensor (waterproof) for environmental data collection
-  
-  Tethered Ethernet connection with static IP for GUI control via RealVNC
-  
-  Power source: Inbuilt 3S LiPo battery
+🔽 2 for vertical (Z-axis) navigation
 
-🧪 Testing Results
-  Tested in a 6-foot pool with stable and smooth navigation
-  
-  No water leakage during the test
-  
-  Collected accurate temperature measurements
-  
-  Balanced propulsion achieved by mirroring propellers to cancel torque
+🔄 2 mirrored for balanced horizontal (X-Y plane) navigation
 
-🧰 Tools & Libraries
-  Python 3
-  
-  PyQt5
-  
-  RPi.GPIO or pigpio (depending on your PWM control method)
-  
-  OpenCV (optional, for camera streaming)
-  
-  RealVNC
-  
-  Raspberry Pi OS (Desktop version)
+🧭 Torque-neutral propulsion achieved through mirrored design
+
+🖥️ Real-time GUI with PyQt, running directly on the Raspberry Pi
+
+📷 Live video feed via Raspberry Pi Camera
+
+🌡️ Waterproof temperature sensor with CSV data logging
+
+🔌 Tethered Ethernet with static IP for GUI control via RealVNC
+
+🔋 Powered by onboard 3S LiPo battery
+
+🧪 Pool Testing Results
+🌊 Tested in a 6-foot-deep pool
+
+🧱 No water leakage
+
+📊 Accurate temperature readings recorded
+
+⚖️ Stable and smooth navigation
+
+🔁 Torque canceled effectively using mirrored motors
+
+🧰 Tools & Libraries Used
+🐍 Python 3
+
+💠 PyQt5
+
+🧲 RPi.GPIO or pigpio
+
+🎥 OpenCV (optional)
+
+🔗 RealVNC
+
+🖥️ Raspberry Pi OS (Desktop)
+
+Robot
+
+🚀 Future Improvements
+
+🧭 IMU integration for orientation sensing
+
+📶 Wireless communication module
+
+🤖 Autonomous navigation system
+
+☁️ Cloud-based data sync and analytics
 
 
+Cloud-based data storage and visualization
