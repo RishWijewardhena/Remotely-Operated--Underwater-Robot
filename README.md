@@ -1,4 +1,4 @@
-🐠 Remotely Operated Underwater Robot using Raspberry Pi
+# 🐠 Remotely Operated Underwater Robot using Raspberry Pi
 Real-Time Navigation, Live Video Streaming, and Temperature Monitoring 🌊🤖
 This project showcases a tethered underwater robot built on a Raspberry Pi 4 running Raspberry Pi OS. Designed for real-time control, live video feedback, and temperature sensing, the robot integrates multiple systems including brushless motors, electronic speed controllers (ESCs), and a waterproof temperature sensor.
 
