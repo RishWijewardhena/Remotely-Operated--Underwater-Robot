@@ -2,6 +2,9 @@
 Real-Time Navigation, Live Video Streaming, and Temperature Monitoring 🌊🤖
 This project showcases a tethered underwater robot built on a Raspberry Pi 4 running Raspberry Pi OS. Designed for real-time control, live video feedback, and temperature sensing, the robot integrates multiple systems including brushless motors, electronic speed controllers (ESCs), and a waterproof temperature sensor.
 
+## for the video demontration 
+  https://drive.google.com/drive/folders/1ebDzYvta6I_Q1wipwPl2bqATb2XtG6MF
+
 The onboard PyQt-based GUI runs directly on the Raspberry Pi and is accessed remotely via RealVNC using a static-IP Ethernet connection. Our design was successfully pool-tested at a depth of 6 feet, showing excellent balance, structural integrity, and accurate environmental data collection.
 
 🛠️ Features
