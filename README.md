@@ -57,7 +57,8 @@ Designed for **real-time control**, **live video feedback**, and **environmental
 ---
 
 ## 📷 Images
-*(Optional section – add images of your ROV here to make the README more visual)*
+![IMG_7280](https://github.com/user-attachments/assets/bbeb0c89-8029-4cca-bb0b-0c3c7293d4b3)
+
 
 ---
 
